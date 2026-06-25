@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: black;
+    
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+
+}
+nav h2{
+    color: white;
+
+}
+nav a:hover{
+    color: red;
+}
+nav li:last-child a{
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+
+}
+nav li:last-child a:hover{
+    background-color: red;
+    color: black;
+}
