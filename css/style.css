@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Playfair Display';
 }
-nav div{
+nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 0px 50px;
     background-color: black;
+    height: 100px;
     
     
 }
 nav ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    font-size: 18px;
     
 }
 nav a{
@@ -23,12 +26,10 @@ nav a{
     text-decoration: none;
 
 }
-nav h2{
-    color: white;
-
-}
 nav a:hover{
     color: red;
+    border: 2px solid white;
+    padding: 3px 6px;
 }
 nav li:last-child a{
     background-color: red;
@@ -37,7 +38,6 @@ nav li:last-child a{
 
 }
 nav li:last-child a:hover{
-    background-color: red;
     color: black;
 }
 nav a.active{
@@ -45,4 +45,22 @@ nav a.active{
     font-weight: bold;
     border-bottom: 2px solid red;
 }
+nav a.active:hover{
+    border: 2px solid red;
+}
+
+
+#logo{
+    height: 90px; 
+    width: 100px; 
+    border: 2px solid white;
+
+}
+#logo img{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+}
+
+
 
