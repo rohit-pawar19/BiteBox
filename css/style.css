@@ -40,3 +40,9 @@ nav li:last-child a:hover{
     background-color: red;
     color: black;
 }
+nav a.active{
+    color: red;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+}
+
