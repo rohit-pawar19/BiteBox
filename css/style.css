@@ -52,16 +52,20 @@ nav a.active:hover{
 
 
 #logo{
-    height: 90px; 
-    width: 100px; 
-    border: 2px solid white;
-
-}
-#logo img{
-    width: 100%;
+    width: 200px;
     height: 80px;
     cursor: pointer;
+   
+
 }
+
+#logo img{
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    
+}
+
 .hero{
     height: 90vh;
     background-image: url(../images/section.png);
