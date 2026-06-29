@@ -3,32 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiteBox</title>
+    <title>BiteBox Menu</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 <body>
     <header>
         <nav>
-            <div>
                 <!----Logo-->
-                <h2>Bite<span style="color:red;">Box</span></h2>
-                
-
+                <div id="logo">
+                     <img src="images/logo1.png">
+                </div>
+                >
+               
                 <!---MenuItems-->
                 <ul>
-                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="bitedeals.html">BiteDeals</a></li>
                     <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                     <li><a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
 
                 </ul>
-            </div>
         </nav>
     </header>
-    <section>
-        <h1>Menu Page</h1>
+    <!---Menu Section-->
+    <section class="menu">
+        <!---Filter section-->
+        <div class="category-icons">
+            <div class="icon-box">
+                <img src="images/iconAll.png" alt="">
+                <p>All</p>
+            </div>
+            <div class="icon-box">
+                <img src="images/icon-1.png" alt="">
+                <p>Burger</p>
+            </div>
+            <div class="icon-box">
+                <img src="images/icon2.png" alt="">
+                <p>Pizza</p>
+            </div>
+            <div class="icon-box">
+                <img src="images/icon3.png" alt="">
+                <p>Fires</p>
+            </div>
+            <div class="icon-box">
+                <img src="images/icon4.png" alt="">
+                <p>Pasta</p>
+            </div>
+            <div class="icon-box">
+                <img src="images/icon5.png" alt="">
+                <p>Momo</p>
+            </div>
+            <div class="icon-box">
+                <img src="images/icon6.png" alt="">
+                <p>Milkshake</p>
+            </div>
+
+        </div>
+        <div class="menu-container">
+            <div class="card">
+                <img src="images/chesseburger.png" alt="">
+                <h3>Burger</h3>
+                <p>Cheesy Burger</p>
+                <span>&#8377;150</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/pepporonipizza.png" alt="">
+                <h3>Pizza</h3>
+                <p>Pepporonia Pizza</p>
+                <span>&#8377;299</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/taccos.png" alt="">
+                <h3>Tacos</h3>
+                <p>Chicken Tacos</p>
+                <span>&#8377;199</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/alfredo_pasta.png" alt="">
+                <h3>Pasta</h3>
+                <p>Alfredo Pasta</p>
+                <span>&#8377;250</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
     </section>
     <footer>
         footer section
