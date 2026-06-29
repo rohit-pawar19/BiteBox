@@ -3,32 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiteBox</title>
+    <title>BiteBox Cart</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 <body>
     <header>
         <nav>
-            <div>
                 <!----Logo-->
-                <h2>Bite<span style="color:red;">Box</span></h2>
-                
-
+                <div id="logo">
+                     <img src="images/logo1.png">
+                </div>
+                >
+               
                 <!---MenuItems-->
                 <ul>
-                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="menu.html">Menu</a></li>
                     <li><a href="bitedeals.html">BiteDeals</a></li>
                     <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                     <li><a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Login</a></li>
 
                 </ul>
-            </div>
         </nav>
     </header>
-    <section>
-       <h1>Cart Page</h1>
+    <section class="cart">
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="images/chesseburger.png" alt="">
+                        <div>
+                            <h4>Cheese Burger</h4>
+                            <p>Juicy grilled burger</p>
+                        </div>
+                    </td>
+                    <td>&#8377;150</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>&#8377;150</td>
+                    <td><button class="remove">&#10060;</button></td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="images/pepporonipizza.png" alt="">
+                        <div>
+                            <h4>Pepporonia Pizza</h4>
+                            <p>Loaded with Cheese</p>
+                        </div>
+                    </td>
+                    <td>&#8377;299</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>&#8377;299</td>
+                    <td><button class="remove">&#10060;</button></td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="images/alfredo_pasta.png" alt="">
+                        <div>
+                            <h4>Alfredo pasta</h4>
+                            <p>Creamy white Sauce</p>
+                        </div>
+                    </td>
+                    <td>&#8377;250</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>&#8377;250</td>
+                    <td><button class="remove">&#10060;</button></td>
+                </tr>
+                <tr class="grand-total">
+                    <td colspan="3">Grand total</td>
+                    <td>&#8377;599</td>
+                    <td><button>Proceed</button></td>
+                </tr>
+            </tbody>
+        </table>
     </section>
     <footer>
         footer section
