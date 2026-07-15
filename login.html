@@ -35,14 +35,26 @@
         <div class="auth-box">
             <h2>Login to <span style="color: red;">Bite</span>Box</h2>
             <form action="">
-                <input type="email" placeholder="Enter Email" required>
-                <input type="password" placeholder="password" required>
-                <button type="submit">Login</button>
+                <input type="email" placeholder="Enter Email" id="email" required>
+                <div style="position: relative;">
+                    <input type="password" placeholder="password" id="password" required>
+                    <span id="eye" onclick="togglePassword()" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); cursor: pointer;">
+                        
+                        <i class="fa-solid fa-eye"></i>
+                    </span>
+                </div>
+                
+                <button type="button" onclick="login()">Login</button>
             </form>
+            <p id="error" style="color: red;"></p>
             <p><a href="signup.html">Forgot Password</a></p>
             <p>Don't have an accouint?<a href="signup.html">SignUp</a></p>
         </div>
         
     </section> 
+    <footer>
+
+    </footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>

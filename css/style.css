@@ -76,10 +76,7 @@ nav a.active:hover{
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 18px;
-    
-
-    
+    font-size: 18px;   
 }
 .hero button{
     background-color: red;
@@ -105,6 +102,7 @@ nav a.active:hover{
     justify-content: space-between;
     padding: 50px;
     gap: 40px;
+    
 }
 
 /*video section*/
@@ -158,6 +156,7 @@ nav a.active:hover{
     box-shadow: 0px 4px 10px black;
     cursor: pointer;
     transition: 1s;
+    
 
 }
 .card:hover{
@@ -184,7 +183,7 @@ nav a.active:hover{
 .menu-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
     
 }
@@ -323,7 +322,10 @@ tbody tr{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg,#000,#1c1c1c);
+    background-image: url(../images/deal3.png);
+    background-size: cover;
+    background-position: center;
+    
 }
 .auth-box{
     background-color: white;
@@ -383,18 +385,25 @@ tbody tr{
 
 }
 .deal-hero{
-    background: linear-gradient(135deg,rgba(0,0,0,0.3),#202020);
     color: white;
     padding: 50px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 40px;
+    height: 200px;
+    background-image: url(../images/bannerdeal.png);
+    background-size: cover;
+    background-position: center;
+    
+  
+
 }
 .deal-hero h1{
     font-size: 40px;
+    padding-top: 20px;
 }
 .deal-hero p{
-    font-size: 18px;
+    font-size: 20px;
 }
 .combo-section{
     padding: 40px;
@@ -502,6 +511,8 @@ tbody tr{
 .green{
     border-top: 5px solid green;
 }
-
+#eye:hover{
+    color: red;
+}
 
 
