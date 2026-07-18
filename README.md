@@ -12,7 +12,7 @@ BiteBox is a responsive food ordering website built using **HTML, CSS, and JavaS
 - 🛒 Shopping Cart Page
 - 🔐 Login Page
 - 📱 Responsive Navigation Bar
-- 🍔 Interactive Food Cards
+- 🍔 Food Cards
 - ➕ Add to Cart Buttons
 - 📂 Responsive Footer
 - 📱 Mobile, Tablet, and Desktop Friendly
@@ -23,7 +23,7 @@ BiteBox is a responsive food ordering website built using **HTML, CSS, and JavaS
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
+- JavaScript 
 - Font Awesome (Icons)
 
 ---
